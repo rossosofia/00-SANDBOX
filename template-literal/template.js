@@ -14,13 +14,14 @@ const fullname = "Albus Percival Wulfric Brian Dumbledore";
 const len = fullname.length;
 const letterindex = fullname[2];
 // const firstName = fullname.substring(0,39); if you want the entire length you can omit the end
-const firstName = fullname.substring(0, 5);
+const firstName = fullname.substring(3, 0);
 const searchTerm = 'Dumbledore';
 const searchTerm2 = 'e';
 const indexOfFirst = fullname.indexOf(searchTerm);
 const lastIndexOf = fullname.lastIndexOf(fullname);
 // text.substring(text.length - 4)
 
+console.log(firstName);
 
 
 // What it the total number of characters, including spaces?
