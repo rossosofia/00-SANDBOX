@@ -24,7 +24,7 @@ const newname2 = arr.join(" ");
 
 // -------- 13.02 Capitalization function ---------
 
-const fullname2 = "pETer heroNIMous lINd";
+const fullname2 = "pETerheroNIMous lINd";
 
 // capitalize the first letter of the entire sentence
 function capitalize(str){
@@ -42,6 +42,6 @@ function capitalize2(str){
     console.log(str);
 }
 
-capitalize(fullname2);
-capitalize2(fullname2);
-capitalize2("pETer heroNIMous lINd");
+// capitalize(fullname2);
+// capitalize2(fullname2);
+capitalize2("pETer heroNIMous-miChael lINd");
