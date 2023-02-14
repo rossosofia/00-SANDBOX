@@ -1,4 +1,14 @@
 "use strict"
+function randomBackground(){
+    document.querySelector("body").style.backgroundColor = rgbToCSS(randomColor());
+    // receives no parameters
+    // call randomColor to get an rgb object
+    // calls rgbToCSS with that object
+    // uses the return value as value for body.style.backgroundColor, this setting the background color to a random value
+    // setTimeout(randomBackground,100); //discoparty
+    }
+
+randomBackground();
 
 function randomColor(){
     // receives no parameters
@@ -17,15 +27,6 @@ function rgbToCSS(rgb){
     return result;
 }
 
-function randomBackground(){
-    document.querySelector("body").style.backgroundColor = rgbToCSS(randomColor());
-    // receives no parameters
-    // call randomColor to get an rgb object
-    // calls rgbToCSS with that object
-    // uses the return value as value for body.style.backgroundColor, this setting the background color to a random value
-    // setTimeout(randomBackground,100); //discoparty
-    }
 
-randomBackground();
 
 
