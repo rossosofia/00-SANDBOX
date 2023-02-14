@@ -44,4 +44,26 @@ function capitalize2(str){
 
 // capitalize(fullname2);
 // capitalize2(fullname2);
-capitalize2("pETer heroNIMous-miChael lINd");
+// capitalize2("pETer heroNIMous miChael lINd");
+
+
+
+// ---- 14.02 capitalize(str) and return value -----
+
+function capitalize3(str){
+    str = str.split(" ");
+    for (let i = 0; i < str.length; i++) {
+        str[i] = str[i].charAt(0).toUpperCase() + str[i].substring(1).toLowerCase();
+    }
+    str = str.join(" ");
+    return str;
+}
+
+const fullname3 = "pETEr";
+const cap = capitalize3(fullname3);
+console.log( cap );
+
+//short way, i just console log the function using the argument i need
+console.log(capitalize3("sOFIa"));
+
+
