@@ -1,18 +1,5 @@
 "use strict"
 
-// console.log("hello world")
-
-// HEX to RGB function
-
-// #bada55 - 186 218 85
-
-// function HexToRGB(#000000){
-//     let r = " ";
-//     let g = " ";
-//     let b = " ";
-//     console.log(r, g, b)
-// }
-
 window.addEventListener("DOMContentLoaded" , start);
 
 function start(){

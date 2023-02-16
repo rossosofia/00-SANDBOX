@@ -12,6 +12,7 @@ randomBackground();
 
 function randomColor(){
     // receives no parameters
+    
     //creates random values for r,g, b from 0 to 255
     let r = Math.floor(Math.random() * 255);
     let g = Math.floor(Math.random() * 255);
